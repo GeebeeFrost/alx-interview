@@ -1,0 +1,1 @@
+This repository contains directories created for projects in the ALX Front end Short Specialization.
