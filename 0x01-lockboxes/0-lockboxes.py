@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """This script contains the canUnlockAll function"""
 
 
