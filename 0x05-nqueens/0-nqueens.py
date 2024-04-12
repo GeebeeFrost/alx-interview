@@ -6,8 +6,8 @@ import sys
 def is_safe(queens, row, col):
     """Checks if a position is safe for placement"""
     for q_row, q_col in queens:
-        if (q_col == col or q_row + q_col == row + col
-                or q_row - q_col == row - col):
+        if (q_col == col or q_row + q_col == row + col or
+                q_row - q_col == row - col):
             return False
     return True
 
