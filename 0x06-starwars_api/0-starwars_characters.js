@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const request = require("request");
+const request = require('request');
 const movieId = process.argv[2];
 const movieURL = `https://swapi-api.alx-tools.com/api/films/${movieId}`;
 
@@ -11,7 +11,7 @@ request.get(movieURL, (error, _response, body) => {
   printCharacters(0, characters);
 });
 
-function printCharacters(index, array) {
+function printCharacters (index, array) {
   if (index === array.length) return;
   request.get(array[index], (error, _response, body) => {
     if (error) return console.error(error);
